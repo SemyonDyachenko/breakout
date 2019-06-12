@@ -89,6 +89,9 @@ public:
                 speedY = -speedY;
             }
         }
+        if(posY +speedY < 3) {
+             speedY = -speedY;
+        }
 
 
     }
